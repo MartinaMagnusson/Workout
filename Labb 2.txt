@@ -1,0 +1,23 @@
+1 färgtema?
+
+svar:
+
+2 Logga?
+
+Svar:
+
+3 Vad har ni för saker.
+
+Svar:
+
+4 Ska de vara en Dropdown list eller labels?
+
+Svar:
+
+5 ska de vara fasta aktiviteter?
+
+Svar:
+
+6 hur vill ni mäta aktiviteterna. tid eller kallorier eller båda?
+
+Svar:
