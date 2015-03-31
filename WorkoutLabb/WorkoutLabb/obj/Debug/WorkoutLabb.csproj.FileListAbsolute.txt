@@ -1,0 +1,9 @@
+C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.dll.config
+C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.dll
+C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.pdb
+C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.dll
+C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.SqlServer.dll
+C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.xml
+C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.SqlServer.xml
+C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
+C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.pdb

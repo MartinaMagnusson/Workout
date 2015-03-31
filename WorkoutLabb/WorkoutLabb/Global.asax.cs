@@ -15,7 +15,6 @@ namespace WorkoutLabb
         protected void Application_Start(object sender, EventArgs e)
         {
             Database.SetInitializer(new WorkoutContextInitializer());
-
         }
 
         protected void Session_Start(object sender, EventArgs e)

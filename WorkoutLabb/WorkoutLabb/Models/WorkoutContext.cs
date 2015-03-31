@@ -8,9 +8,11 @@ namespace WorkoutLabb.Models
 {
     public class WorkoutContext: DbContext
     {
+        public DbSet<User> Users { get; set; }
+        public DbSet<Activity> Activities { get; set; }
+       
         public WorkoutContext()
         {
-            
         }
     }
 }
