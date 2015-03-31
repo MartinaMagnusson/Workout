@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using WorkoutLabb.Models;
+using System.Data.Entity;
 
 namespace WorkoutLabb
 {
@@ -12,6 +14,7 @@ namespace WorkoutLabb
 
         protected void Application_Start(object sender, EventArgs e)
         {
+            Database.SetInitializer(new WorkoutContextInitializer());
 
         }
 

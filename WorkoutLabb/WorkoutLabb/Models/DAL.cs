@@ -7,5 +7,9 @@ namespace WorkoutLabb.Models
 {
     public class DAL
     {
+        public DAL()
+        {
+            
+        }
     }
 }
