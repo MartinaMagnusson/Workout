@@ -22,6 +22,7 @@ namespace WorkoutLabb
         public string ActivityName { get; set; }
         public double TimeSpan { get; set; }
         public int Calories { get; set; }
+        
         /* 
          * Vi behöver ett datum för aktiviteten samt en timespan för hur länge den pågått.
          * Detta för att kunna söka efter aktivitet på ett specifikt datum samt

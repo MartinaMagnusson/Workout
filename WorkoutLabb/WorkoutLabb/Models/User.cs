@@ -11,17 +11,19 @@ namespace WorkoutLabb.Models
         {
             
         }
-        public User(string password, string userName, List<Activity> activities)
+        public User(string password, string userName, DateTime joinGym, List<Workout> workouts)
         {          
             Password = password;
             UserName = userName;
-            Activities = activities;
+            Workouts = workouts;
+            JoinGym = joinGym;
         }
 
         public int ID { get; set; }
         public string Password { get; set; }
         public string UserName { get; set; }
-        public List<Activity> Activities { get; set; }
+        public virtual List<Workout> Workouts { get; set; }
+        public DateTime JoinGym { get; set; }
 
     }
 }

@@ -10,6 +10,7 @@ namespace WorkoutLabb.Models
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Activity> Activities { get; set; }
+        public DbSet<Workout> Workouts { get; set; }
        
         public WorkoutContext()
         {

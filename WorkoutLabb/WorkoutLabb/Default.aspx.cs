@@ -13,5 +13,24 @@ namespace WorkoutLabb
         {
 
         }
+
+        protected void ButtonSubmit_Click(object sender, EventArgs e)
+        {
+            List<Activity>  activities = new List<Activity>();
+            int value = 0;
+            if (RadioButtonEasy.Checked)
+                value = 1;
+            if (RadioButtonMedium.Checked)
+                value = 2;
+            if (RadioButtonHard.Checked)
+                value = 3;
+            var sum = int.Parse(TextBoxRunningTime.Text) * value;
+            
+            Label1.Text = sum.ToString();
+       activities.Add(new Activity()
+       {
+           
+       });
+        }
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using WorkoutLabb.Logic;
 using WorkoutLabb.Models;
 using System.Data.Entity;
 
@@ -19,7 +20,8 @@ namespace WorkoutLabb
 
         protected void Session_Start(object sender, EventArgs e)
         {
-
+            Session["UserID"] = 0;
+           Session["UserID"] = HelpClass.UserID;
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)

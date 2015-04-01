@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="WorkoutLabb.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Our Workout Shop</title>
+    <link href="Styles/MasterPageCSS.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="MainContent">
+            <div class="CenterContent">
+                <div class="Header">
+                    <div class="logoDiv">
+                        
+                        <a href="Default.aspx" ><img class="logoImg" src="Images/logo.jpg" /></a>
+                    </div>
+                    <nav class="MainNavigation">
+                        <ul class="UlNav">
+                            <li class="LiNavElement">
+                                <a href="Default.aspx" class="MainNavAnchor">Home</a>
+                            </li>
+                            <li class="LiNavElement">
+                                <a href="hej.aspx" class="MainNavAnchor">Activity</a>
+                            </li>
+                            <li class="LiNavElement">
+                                <a class="MainNavAnchor">Highscore</a>
+                            </li>
+                            <li class="LiNavElement">
+                                <a class="MainNavAnchor">placeholder</a>
+                            </li>
+                        </ul>
+                        
+                    </nav>
+                </div>
+                <form id="form1" runat="server">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </div>
+                </form>
+
+            </div>
+        
+        
+    
+                
+            </div><!-- *** MainContent end *** -->
+    </div> <!-- *** wrapper end *** -->
+</body>
+</html>

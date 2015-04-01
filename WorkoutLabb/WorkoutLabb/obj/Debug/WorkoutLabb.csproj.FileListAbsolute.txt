@@ -7,3 +7,12 @@ C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFr
 C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.SqlServer.xml
 C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
 C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.pdb
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.dll.config
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.pdb
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.SqlServer.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.xml
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.SqlServer.xml
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.pdb

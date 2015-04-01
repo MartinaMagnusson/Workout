@@ -1,0 +1,83 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+div.wrapper {
+    
+    width: 100%;
+    min-height: 1000px;
+    background-color: black;
+
+    
+}
+
+div.MainContent {
+    
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    
+    
+}
+
+div.CenterContent {
+    width: 100%;
+    height: 100%;
+   
+    background-color: white;
+}
+
+div.Header {
+    width: 100%;
+    height: 200px;
+    background-color: orange;   
+}
+
+div.logoDiv {
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+img.logoImg {
+    height: 150px;
+    width: 150px;
+}
+
+div.logoDiv :hover {
+    cursor: pointer;
+}
+
+nav.MainNavigation {
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+    float: left;
+}
+
+ul {
+    list-style: none;   
+}
+
+li.LiNavElement {
+    width: 25%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    
+    background-color: hotpink;
+}
+
+li:hover {
+    background-color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
