@@ -65,9 +65,11 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Images\logo.jpg" />
+    <Content Include="Images\weights.png" />
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="Master.Master" />
+    <Content Include="Styles\background.png" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -77,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Styles\Default.css" />
     <Content Include="Styles\MasterPageCSS.css" />
     <Content Include="Web.config" />
   </ItemGroup>

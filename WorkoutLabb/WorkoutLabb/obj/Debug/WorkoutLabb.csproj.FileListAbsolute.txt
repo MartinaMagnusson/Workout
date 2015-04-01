@@ -17,3 +17,13 @@ C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\Workou
 C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
 C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.pdb
 C:\Users\rojje\Desktop\skola\GitHub\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.dll.config
+C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.dll
+C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.pdb
+C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.dll
+C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.SqlServer.dll
+C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.xml
+C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.SqlServer.xml
+C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
+C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.pdb

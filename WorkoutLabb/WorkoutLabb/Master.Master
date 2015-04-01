@@ -16,7 +16,11 @@
                 <div class="Header">
                     <div class="logoDiv">
                         
-                        <a href="Default.aspx" ><img class="logoImg" src="Images/logo.jpg" /></a>
+                        <a href="Default.aspx" ><img class="logoImg" src="Images/weights.png"/></a>
+                    </div>
+                    <div class="HeaderContent">
+                        <h1 id="HeaderHeadlinetop">Work Hard</h1>
+                        <h1 id="HeaderHeadlineBottom">Kick Ass!</h1>
                     </div>
                     <nav class="MainNavigation">
                         <ul class="UlNav">
@@ -27,7 +31,7 @@
                                 <a href="hej.aspx" class="MainNavAnchor">Activity</a>
                             </li>
                             <li class="LiNavElement">
-                                <a class="MainNavAnchor">Highscore</a>
+                                <a href="topscore.aspx" class="MainNavAnchor">Top Score</a>
                             </li>
                             <li class="LiNavElement">
                                 <a class="MainNavAnchor">placeholder</a>

@@ -16,6 +16,7 @@ namespace WorkoutLabb
 
         protected void ButtonSubmit_Click(object sender, EventArgs e)
         {
+            
             List<Activity>  activities = new List<Activity>();
             int value = 0;
             if (RadioButtonEasy.Checked)
