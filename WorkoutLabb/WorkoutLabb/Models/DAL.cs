@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Web;
 
 namespace WorkoutLabb.Models
@@ -15,6 +16,28 @@ namespace WorkoutLabb.Models
             listOfUsers = GetAllUsers();
             
         }
+
+        public List<Activity> GetTopScoreActivity()
+        {
+            var activityList = GetAllActivitesFromUser();
+            return (
+                from a in activityList
+                orderby a.TimeSpan ascending
+                select a).ToList();
+
+
+        }
+
+        private List<Activity> GetAllActivitesFromUser()
+        {
+            return (
+                from u in _context.Users
+                from w in u.Workouts
+                from a in w.Activities
+                where u.ID == UserID
+                select a).ToList();
+
+        } 
 
         public List<Workout> GetWorkouts()
         {

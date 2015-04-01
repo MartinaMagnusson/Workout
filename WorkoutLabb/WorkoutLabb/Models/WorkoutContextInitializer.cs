@@ -38,7 +38,17 @@ namespace WorkoutLabb.Models
                                 new Activity("Gym", 270, 14.52d)
                             },
                             TraningDate = new DateTime(2015, 04, 01)
+                        },
+                        new Workout()
+                        {
+                            Activities = new List<Activity>()
+                            {
+                                new Activity("Running", 480, 29.52d),
+                                new Activity("Gym", 270, 12.52d)
+                            },
+                            TraningDate = new DateTime(2015, 03, 01)
                         }
+
                     })
             };
 

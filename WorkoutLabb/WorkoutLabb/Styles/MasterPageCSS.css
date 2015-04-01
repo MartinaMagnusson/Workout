@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+h1 {
+    font-family: 'Droid Serif', serif;
+}
+a {
+    font-family: 'Droid Serif', serif;
+}
+
+
+
 
 body {
     
@@ -59,15 +68,15 @@ div.HeaderContent {
 h1#HeaderHeadlinetop {
     margin-left: 50px;
     display: inline;
-    font-size: 3em;
+    font-size: 3.7em;
     float: left;
 }
 
 h1#HeaderHeadlineBottom {
     display: inline;
     float: right;
-    font-size: 3em;
-    margin-right: 120px;
+    font-size: 3.7em;
+    margin-right: 70px;
 }
 
 
@@ -117,15 +126,11 @@ a {
 }
 
 
-
-
-
 li.LiNavElement {
-    width: 25%;
+    width: 20%;
     height: 30px;
     float: left;
     text-align: center;
-    
     background-color: black;
     color: whitesmoke;
     font-size: 1.5em;

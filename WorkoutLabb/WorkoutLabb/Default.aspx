@@ -74,23 +74,7 @@
                 <br />
 <br /></span>
             </AlternatingItemTemplate>
-            <EditItemTemplate>
-                <span style="">ID:
-                <asp:TextBox ID="IDTextBox" runat="server" Text='<%# Bind("ID") %>' />
-                <br />
-                ActivityName:
-                <asp:TextBox ID="ActivityNameTextBox" runat="server" Text='<%# Bind("ActivityName") %>' />
-                <br />
-                TimeSpan:
-                <asp:TextBox ID="TimeSpanTextBox" runat="server" Text='<%# Bind("TimeSpan") %>' />
-                <br />
-                Calories:
-                <asp:TextBox ID="CaloriesTextBox" runat="server" Text='<%# Bind("Calories") %>' />
-                <br />
-                <asp:Button ID="UpdateButton" runat="server" CommandName="Update" Text="Update" />
-                <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" />
-                <br /><br /></span>
-            </EditItemTemplate>
+            
             <EmptyDataTemplate>
                 <span>No data was returned.</span>
             </EmptyDataTemplate>

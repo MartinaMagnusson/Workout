@@ -6,6 +6,7 @@
 <head runat="server">
     <title>Our Workout Shop</title>
     <link href="Styles/MasterPageCSS.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -28,14 +29,18 @@
                                 <a href="Default.aspx" class="MainNavAnchor">Home</a>
                             </li>
                             <li class="LiNavElement">
-                                <a href="hej.aspx" class="MainNavAnchor">Activity</a>
+                                <a href="hej.aspx" class="MainNavAnchor">Workout</a>
                             </li>
                             <li class="LiNavElement">
                                 <a href="topscore.aspx" class="MainNavAnchor">Top Score</a>
                             </li>
                             <li class="LiNavElement">
-                                <a class="MainNavAnchor">placeholder</a>
+                                <a class="MainNavAnchor">Placeholder</a>
                             </li>
+                            <li class="LiNavElement">
+                                <a class="MainNavAnchor">Placeholder</a>
+                            </li>
+                        
                         </ul>
                         
                     </nav>
