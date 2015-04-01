@@ -18,7 +18,7 @@ namespace WorkoutLabb
         protected void Button1_Click(object sender, EventArgs e)
         {
 
-           //DAL.Authenticate(TextBoxUserName.Text, TextBoxPassword.Text);
+           DAL.Authenticate(TextBoxUserName.Text, TextBoxPassword.Text);
             if (DAL.UserID != 0)
             {
                 LabelError.Text = "Correct Name or Password";
