@@ -25,6 +25,23 @@ namespace WorkoutLabb.Models
                                 new Activity("Running", 500, 30.52d)
                             },
                             TraningDate = new DateTime(2015, 04, 01)
+                        },
+                        new Workout()
+                        {
+                            Activities = new List<Activity>()
+                            {
+                                new Activity("Running", 300, 20.32d)
+                            },
+                            TraningDate = new DateTime(2015, 04, 02)
+                        },
+
+                        new Workout()
+                        {
+                            Activities = new List<Activity>()
+                            {
+                                new Activity("Gym", 280 , 30.52d)
+                            },
+                            TraningDate = new DateTime(2015, 04, 03)
                         }
                     }),
                 new User(userName: "Roje", password: "54321", joinGym: new DateTime(2014, 01, 01),
