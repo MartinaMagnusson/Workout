@@ -13,7 +13,7 @@ a {
 
 
 body {
-    
+    background-size:cover
     
 }
 
@@ -24,6 +24,7 @@ div.wrapper {
     background-color: whitesmoke;
     background-color: whitesmoke;
     background-image: url("background.png")
+    
     /*http://artbaggage.com/wp-content/gallery/plate-metal-texture/plate_metall_black.png */
 
     

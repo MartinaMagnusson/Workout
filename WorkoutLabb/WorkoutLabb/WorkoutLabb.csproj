@@ -82,6 +82,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Styles\Default.css" />
+    <Content Include="Styles\Login.css" />
     <Content Include="Styles\MasterPageCSS.css" />
     <Content Include="topscore.aspx" />
     <Content Include="Web.config" />
@@ -127,6 +128,7 @@
     <Compile Include="Models\WorkoutContextInitializer.cs" />
     <Compile Include="Prediction.aspx.cs">
       <DependentUpon>Prediction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Prediction.aspx.designer.cs">
       <DependentUpon>Prediction.aspx</DependentUpon>
