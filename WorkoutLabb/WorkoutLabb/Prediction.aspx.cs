@@ -13,25 +13,5 @@ namespace WorkoutLabb
         {
 
         }
-
-        protected void TextBoxWeights_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void TextBoxWeightGoal_TextChanged(object sender, EventArgs e)
-        {
-            TextBoxWeightGoal.Text = LabelGoal.Text;
-        }
-
-        protected void TextBoxAnswer_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        protected void ButtonAmountWeights_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

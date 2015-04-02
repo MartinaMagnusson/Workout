@@ -37,13 +37,3 @@ C:\Users\Andreas\Desktop\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFrame
 C:\Users\Andreas\Desktop\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.csprojResolveAssemblyReference.cache
 C:\Users\Andreas\Desktop\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
 C:\Users\Andreas\Desktop\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.pdb
-C:\Users\Christopher\Documents\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.dll.config
-C:\Users\Christopher\Documents\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.dll
-C:\Users\Christopher\Documents\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.pdb
-C:\Users\Christopher\Documents\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.dll
-C:\Users\Christopher\Documents\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.SqlServer.dll
-C:\Users\Christopher\Documents\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.xml
-C:\Users\Christopher\Documents\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.SqlServer.xml
-C:\Users\Christopher\Documents\GitHub\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.csprojResolveAssemblyReference.cache
-C:\Users\Christopher\Documents\GitHub\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
-C:\Users\Christopher\Documents\GitHub\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.pdb
