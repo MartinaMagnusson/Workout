@@ -22,6 +22,15 @@ namespace WorkoutLabb {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// LabelUserName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelUserName;
+        
+        /// <summary>
         /// TextBoxUserName control.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,24 @@ namespace WorkoutLabb {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxUserName;
+        
+        /// <summary>
+        /// RequiredFieldValidatorUserName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorUserName;
+        
+        /// <summary>
+        /// LabelPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelPassword;
         
         /// <summary>
         /// TextBoxPassword control.
@@ -40,13 +67,13 @@ namespace WorkoutLabb {
         protected global::System.Web.UI.WebControls.TextBox TextBoxPassword;
         
         /// <summary>
-        /// ButtonLogIn control.
+        /// RequiredFieldValidatorPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonLogIn;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorPassword;
         
         /// <summary>
         /// LabelError control.
@@ -56,5 +83,14 @@ namespace WorkoutLabb {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LabelError;
+        
+        /// <summary>
+        /// ButtonLogIn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonLogIn;
     }
 }

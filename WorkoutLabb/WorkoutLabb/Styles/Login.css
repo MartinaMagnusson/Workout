@@ -1,0 +1,26 @@
+﻿body {
+    background-image: url(../Styles/background.png);
+}
+
+div.wrapper {
+    width: 100%;
+    min-height: 1000px;
+}
+
+div.MainContent {
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+div.CenterContent {
+    width: 100%;
+    height: 100%;
+    
+    margin-bottom: 50px;
+    opacity: 0.97;
+    filter: alpha(opacity=40);
+}
