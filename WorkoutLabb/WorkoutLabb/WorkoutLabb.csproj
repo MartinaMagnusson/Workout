@@ -63,12 +63,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CaloriCalculation.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\weights.png" />
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="Master.Master" />
+    <Content Include="Prediction.aspx" />
     <Content Include="Styles\background.png" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -85,6 +87,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CaloriCalculation.aspx.cs">
+      <DependentUpon>CaloriCalculation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaloriCalculation.aspx.designer.cs">
+      <DependentUpon>CaloriCalculation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -117,6 +126,13 @@
     <Compile Include="Models\Workout.cs" />
     <Compile Include="Models\WorkoutContext.cs" />
     <Compile Include="Models\WorkoutContextInitializer.cs" />
+    <Compile Include="Prediction.aspx.cs">
+      <DependentUpon>Prediction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prediction.aspx.designer.cs">
+      <DependentUpon>Prediction.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="topscore.aspx.cs">
       <DependentUpon>topscore.aspx</DependentUpon>
