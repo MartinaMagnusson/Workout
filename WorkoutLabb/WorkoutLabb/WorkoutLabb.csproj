@@ -89,7 +89,6 @@
   <ItemGroup>
     <Compile Include="CaloriCalculation.aspx.cs">
       <DependentUpon>CaloriCalculation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CaloriCalculation.aspx.designer.cs">
       <DependentUpon>CaloriCalculation.aspx</DependentUpon>
@@ -128,7 +127,6 @@
     <Compile Include="Models\WorkoutContextInitializer.cs" />
     <Compile Include="Prediction.aspx.cs">
       <DependentUpon>Prediction.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Prediction.aspx.designer.cs">
       <DependentUpon>Prediction.aspx</DependentUpon>
