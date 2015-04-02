@@ -34,7 +34,7 @@
             <td>Running</td>
             <td>
                 <asp:RadioButton ID="RadioButtonEasy" runat="server" GroupName="Difficulty" Text="Easy" />
-                <asp:RadioButton ID="RadioButtonMedium" runat="server" GroupName="Difficulty" Text="Medium" />
+                    <asp:RadioButton ID="RadioButtonMedium" runat="server" GroupName="Difficulty" Text="Medium" />
                 <asp:RadioButton ID="RadioButtonHard" runat="server" GroupName="Difficulty" Text="Hard" />
             </td>
             <td>
@@ -58,6 +58,13 @@
         
     </table>
     <div class="underlineDiv">
+        
+        
+        <!-- *** History Table below *** -->
+        
+
+        <br/>
+        <br/>
         <asp:ListView ID="ListView1" runat="server" DataSourceID="ObjectDataSource2">
           
             <EmptyDataTemplate>
@@ -83,7 +90,7 @@
                         <asp:TextBox ID="DifficultyTextBox" runat="server" Text='<%# Bind("Difficulty") %>' />
                     </td>
                     <td>
-                        <asp:TextBox ID="WorkoutTypeListTextBox" runat="server" Text='<%# Bind("WorkoutTypeList") %>' />
+                        <asp:TextBox ID="WorkoutTypeListTextBox" runat="server" Text='<%# Bind("WorkoutType") %>' />
                     </td>
                     <td>
                         <asp:TextBox ID="TraningDateTextBox" runat="server" Text='<%# Bind("TraningDate") %>' />
@@ -102,7 +109,7 @@
                         <asp:Label ID="DifficultyLabel" runat="server" Text='<%# Eval("Difficulty") %>' />
                     </td>
                     <td>
-                        <asp:Label ID="WorkoutTypeListLabel" runat="server" Text='<%# Eval("WorkoutTypeList") %>' />
+                        <asp:Label ID="WorkoutTypeListLabel" runat="server" Text='<%# Eval("WorkoutType") %>' />
                     </td>
                     <td>
                         <asp:Label ID="TraningDateLabel" runat="server" Text='<%# Eval("TraningDate") %>' />

@@ -14,10 +14,10 @@ namespace WorkoutLabb
             Easy = 120, Medium = 150, Hard = 200
         }
 
-        public enum ActivityEnum
-        {
-            Running, BenchPress, Cycling, IndoorRower, IndoorWalking
-        }
+        //public enum ActivityEnum
+        //{
+        //    Running, BenchPress, Cycling, IndoorRower, IndoorWalking
+        //}
         public Activity()
         {
             
@@ -32,7 +32,7 @@ namespace WorkoutLabb
             TimeSpan = timeSpan;
             Sets = sets;
             Difficulty = difficulty;
-            WorkoutTypeList = workoutTypeList;
+            WorkoutType = workoutTypeList.ToString();
             TraningDate = traningDate;
         }
 
@@ -41,7 +41,7 @@ namespace WorkoutLabb
         public List<RepetitionSet> Sets { get; set; }
 
         public DifficultyEnum Difficulty { get; set; }
-        public ActivityEnum WorkoutTypeList  { get; set; }
+        public string WorkoutType { get; set; }
         public DateTime TraningDate { get; set; }
 
         
