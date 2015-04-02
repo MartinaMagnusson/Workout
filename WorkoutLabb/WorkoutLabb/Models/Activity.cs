@@ -27,12 +27,13 @@ namespace WorkoutLabb
 
         public int ID { get; set; }
 
-        public Activity(double timeSpan, List<RepetitionSet> sets, DifficultyEnum difficulty, ActivityEnum workoutTypeList)
+        public Activity(double timeSpan, List<RepetitionSet> sets, DifficultyEnum difficulty, ActivityEnum workoutTypeList, DateTime traningDate)
         {
             TimeSpan = timeSpan;
             Sets = sets;
             Difficulty = difficulty;
             WorkoutTypeList = workoutTypeList;
+            TraningDate = traningDate;
         }
 
         public double TimeSpan { get; set; }
@@ -41,6 +42,7 @@ namespace WorkoutLabb
 
         public DifficultyEnum Difficulty { get; set; }
         public ActivityEnum WorkoutTypeList  { get; set; }
+        public DateTime TraningDate { get; set; }
 
         
         
