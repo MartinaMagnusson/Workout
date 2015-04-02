@@ -29,16 +29,16 @@
                                 <a href="Default.aspx" class="MainNavAnchor">Home</a>
                             </li>
                             <li class="LiNavElement">
-                                <a href="hej.aspx" class="MainNavAnchor">Workout</a>
+                                <a href="Workout.aspx" class="MainNavAnchor">Workout</a>
                             </li>
                             <li class="LiNavElement">
                                 <a href="topscore.aspx" class="MainNavAnchor">Top Score</a>
                             </li>
                             <li class="LiNavElement">
-                                <a class="MainNavAnchor">Placeholder</a>
+                                <a href="Prediction.aspx"  class="MainNavAnchor">Prediction</a>
                             </li>
                             <li class="LiNavElement">
-                                <a class="MainNavAnchor">Placeholder</a>
+                                <a href="CaloriCalculation.aspx" class="MainNavAnchor">Caloris Used</a>
                             </li>
                         
                         </ul>
