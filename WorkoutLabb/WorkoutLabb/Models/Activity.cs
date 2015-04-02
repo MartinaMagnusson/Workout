@@ -11,29 +11,38 @@ namespace WorkoutLabb
 
         public enum DifficultyEnum
         {
-            Easy, Medium, Hard
+            Easy = 120, Medium = 150, Hard = 200
+        }
+
+        public enum ActivityEnum
+        {
+            Running, BenchPress, Cycling, IndoorRower, IndoorWalking
         }
         public Activity()
         {
             
         }
 
-        public Activity(string activityName, double timeSpan, List<RepetitionSet> sets, DifficultyEnum difficulty)
-        {
-            ActivityName = activityName;
-            TimeSpan = timeSpan;
-           
-            Sets = sets;
-            Difficulty = difficulty;
-        }
+
 
         public int ID { get; set; }
-        public string ActivityName { get; set; }
+
+        public Activity(double timeSpan, List<RepetitionSet> sets, DifficultyEnum difficulty, ActivityEnum workoutTypeList)
+        {
+            TimeSpan = timeSpan;
+            Sets = sets;
+            Difficulty = difficulty;
+            WorkoutTypeList = workoutTypeList;
+        }
+
         public double TimeSpan { get; set; }
         
         public List<RepetitionSet> Sets { get; set; }
 
         public DifficultyEnum Difficulty { get; set; }
+        public ActivityEnum WorkoutTypeList  { get; set; }
+
+        
         
 
 

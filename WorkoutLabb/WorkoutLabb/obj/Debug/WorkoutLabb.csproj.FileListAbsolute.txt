@@ -37,3 +37,4 @@ C:\Users\Andreas\Desktop\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFrame
 C:\Users\Andreas\Desktop\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.csprojResolveAssemblyReference.cache
 C:\Users\Andreas\Desktop\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
 C:\Users\Andreas\Desktop\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.pdb
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.csprojResolveAssemblyReference.cache

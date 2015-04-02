@@ -22,7 +22,7 @@ namespace WorkoutLabb.Models
                         {
                             Activities = new List<Activity>()
                             {
-                                new Activity("Running", 30.52d,new List<RepetitionSet>(),Activity.DifficultyEnum.Easy )
+                                new Activity (30.52d,new List<RepetitionSet>(),Activity.DifficultyEnum.Easy, Activity.ActivityEnum.Running )
                             },
                             TraningDate = new DateTime(2015, 04, 01)
                         },
@@ -30,7 +30,7 @@ namespace WorkoutLabb.Models
                         {
                             Activities = new List<Activity>()
                             {
-                                new Activity("Swimming", 20.52d,new List<RepetitionSet>(),Activity.DifficultyEnum.Medium )
+                                new Activity(20.52d,new List<RepetitionSet>(),Activity.DifficultyEnum.Medium, Activity.ActivityEnum.IndoorRower )
                             },
                             TraningDate = new DateTime(2015, 04, 02)
                         },
@@ -39,7 +39,7 @@ namespace WorkoutLabb.Models
                         {
                             Activities = new List<Activity>()
                             {
-                                new Activity("Benchpress", 30.52d,new List<RepetitionSet>(),Activity.DifficultyEnum.Easy )
+                                new Activity(30.52d,new List<RepetitionSet>(),Activity.DifficultyEnum.Easy, Activity.ActivityEnum.Cycling )
                             },
                             TraningDate = new DateTime(2015, 04, 03)
                         }
@@ -51,8 +51,8 @@ namespace WorkoutLabb.Models
                         {
                             Activities = new List<Activity>()
                             {
-                                new Activity("swimming", 30.32d,new List<RepetitionSet>(),Activity.DifficultyEnum.Easy ),
-                                new Activity("Running", 3,new List<RepetitionSet>(),Activity.DifficultyEnum.Hard )
+                                new Activity(30.52d,new List<RepetitionSet>(),Activity.DifficultyEnum.Easy, Activity.ActivityEnum.Cycling ),
+                                new Activity(30.52d,new List<RepetitionSet>(),Activity.DifficultyEnum.Hard, Activity.ActivityEnum.IndoorWalking )
                             },
                             TraningDate = new DateTime(2015, 04, 01)
                         },
@@ -60,8 +60,8 @@ namespace WorkoutLabb.Models
                         {
                             Activities = new List<Activity>()
                             {
-                                new Activity("Weight", 30.32d,new List<RepetitionSet>(),Activity.DifficultyEnum.Easy ),
-                                new Activity("Shoulder press", 33,new List<RepetitionSet>(),Activity.DifficultyEnum.Hard )
+                                new Activity(30.52d,new List<RepetitionSet>(),Activity.DifficultyEnum.Easy, Activity.ActivityEnum.Cycling ),
+                                new Activity(30.52d,new List<RepetitionSet>(),Activity.DifficultyEnum.Hard, Activity.ActivityEnum.Cycling )
                             },
                             TraningDate = new DateTime(2015, 03, 01)
                         }
