@@ -17,18 +17,7 @@ namespace WorkoutLabb.Models
             
         }
 
-        public List<Activity> GetTopScoreActivity()
-        {
-            var activityList = GetAllActivitesFromUser();
-            return (
-                from a in activityList
-                orderby a.TimeSpan ascending
-                select a).ToList();
-
-
-        }
-
-        private List<Activity> GetAllActivitesFromUser()
+        public List<Activity> GetAllActivities()
         {
             return (
                 from u in _context.Users
@@ -36,7 +25,6 @@ namespace WorkoutLabb.Models
                 from a in w.Activities
                 where u.ID == UserID
                 select a).ToList();
-
         } 
 
         public List<Workout> GetWorkouts()
@@ -44,14 +32,6 @@ namespace WorkoutLabb.Models
             return (from w in _context.Workouts
                 select w).ToList();
         } 
-        public List<User> GetUsers()
-        {
-           
-            return
-                (from u in _context.Users
-                 where u.ID == UserID
-                 select u).ToList();
-        }
 
         private List<User> GetAllUsers()
         {
@@ -59,15 +39,6 @@ namespace WorkoutLabb.Models
                 (from u in _context.Users
                  select u).ToList();
             return query;
-        }
-
-        public List<Activity> GetActivities()
-        {
-            return (from u in _context.Users
-                   from w in u.Workouts
-                   from a in w.Activities
-                   where u.ID == UserID
-                   select a).ToList();
         }
 
         public static int UserID { get; set; }

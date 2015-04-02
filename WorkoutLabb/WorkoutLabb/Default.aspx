@@ -20,7 +20,7 @@
 <div class="placeholderContentDiv">
         
     
-    <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetActivities" TypeName="WorkoutLabb.Models.DAL"></asp:ObjectDataSource>
+    <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" TypeName="WorkoutLabb.Models.DAL"></asp:ObjectDataSource>
     <table class="auto-style1">
         <tr>
             <td class="auto-style2">Acivity</td>
@@ -58,6 +58,81 @@
         
     </table>
     <div class="underlineDiv">
+        <asp:ListView ID="ListView1" runat="server" DataSourceID="ObjectDataSource2">
+          
+            <EmptyDataTemplate>
+                <table runat="server" style="background-color: #FFFFFF;border-collapse: collapse;border-color: #999999;border-style:none;border-width:1px;">
+                    <tr>
+                        <td>No data was returned.</td>
+                    </tr>
+                </table>
+            </EmptyDataTemplate>
+            <InsertItemTemplate>
+                <tr style="">
+                    <td>
+                        <asp:Button ID="InsertButton" runat="server" CommandName="Insert" Text="Insert" />
+                        <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Clear" />
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TimeSpanTextBox" runat="server" Text='<%# Bind("TimeSpan") %>' />
+                    </td>
+                    <td>
+                        <asp:TextBox ID="SetsTextBox" runat="server" Text='<%# Bind("Sets") %>' />
+                    </td>
+                    <td>
+                        <asp:TextBox ID="DifficultyTextBox" runat="server" Text='<%# Bind("Difficulty") %>' />
+                    </td>
+                    <td>
+                        <asp:TextBox ID="WorkoutTypeListTextBox" runat="server" Text='<%# Bind("WorkoutTypeList") %>' />
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TraningDateTextBox" runat="server" Text='<%# Bind("TraningDate") %>' />
+                    </td>
+                </tr>
+            </InsertItemTemplate>
+            <ItemTemplate>
+                <tr style="background-color:#DCDCDC;color: #000000;">
+                    <td>
+                        <asp:Label ID="TimeSpanLabel" runat="server" Text='<%# Eval("TimeSpan") %>' />
+                    </td>
+                    <td>
+                        <asp:Label ID="SetsLabel" runat="server" Text='<%# Eval("Sets") %>' />
+                    </td>
+                    <td>
+                        <asp:Label ID="DifficultyLabel" runat="server" Text='<%# Eval("Difficulty") %>' />
+                    </td>
+                    <td>
+                        <asp:Label ID="WorkoutTypeListLabel" runat="server" Text='<%# Eval("WorkoutTypeList") %>' />
+                    </td>
+                    <td>
+                        <asp:Label ID="TraningDateLabel" runat="server" Text='<%# Eval("TraningDate") %>' />
+                    </td>
+                </tr>
+            </ItemTemplate>
+            <LayoutTemplate>
+                <table runat="server">
+                    <tr runat="server">
+                        <td runat="server">
+                            <table id="itemPlaceholderContainer" runat="server" border="1" style="background-color: #FFFFFF;border-collapse: collapse;border-color: #999999;border-style:none;border-width:1px;font-family: Verdana, Arial, Helvetica, sans-serif;">
+                                <tr runat="server" style="background-color:#DCDCDC;color: #000000;">
+                                    <th runat="server">TimeSpan</th>
+                                    <th runat="server">Sets</th>
+                                    <th runat="server">Difficulty</th>
+                                    <th runat="server">WorkoutTypeList</th>
+                                    <th runat="server">TraningDate</th>
+                                </tr>
+                                <tr id="itemPlaceholder" runat="server">
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr runat="server">
+                        <td runat="server" style="text-align: center;background-color: #CCCCCC;font-family: Verdana, Arial, Helvetica, sans-serif;color: #000000;"></td>
+                    </tr>
+                </table>
+            </LayoutTemplate>
+        </asp:ListView>
+        <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" SelectMethod="GetAllActivities" TypeName="WorkoutLabb.Models.DAL"></asp:ObjectDataSource>
     </div>
     
 </div>
