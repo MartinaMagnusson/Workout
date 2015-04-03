@@ -10,9 +10,12 @@ namespace WorkoutLabb.Models
     public class WorkoutContextInitializer : DropCreateDatabaseAlways<WorkoutContext>
     {
         private List<User> _users;
+        private List<TestClass> _testClass;
 
         public WorkoutContextInitializer()
         {
+            _testClass = new List<TestClass>();
+            _testClass.Add(new TestClass(){Name = "Tobbe"});
             _users = new List<User>()
             {
                 new User(userName: "Björk", password: "12345", joinGym: new DateTime(2015, 04, 01),

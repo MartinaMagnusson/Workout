@@ -63,15 +63,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CaloriCalculation.aspx" />
-    <Content Include="Default.aspx" />
+    <Content Include="calories.aspx" />
+    <Content Include="default.aspx" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\weights.png" />
-    <Content Include="Login.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="packages.config" />
     <Content Include="Master.Master" />
-    <Content Include="Prediction.aspx" />
+    <Content Include="prediction.aspx" />
+    <Content Include="Script\jquery-1.11.0.min.js" />
+    <Content Include="Script\MasterPageScript.js" />
     <Content Include="Styles\background.png" />
+    <Content Include="Styles\workout.css" />
+    <Content Include="workout.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -83,30 +87,32 @@
     <Content Include="Global.asax" />
     <Content Include="Styles\Default.css" />
     <Content Include="Styles\MasterPageCSS.css" />
+    <Content Include="Styles\prediction.css" />
     <Content Include="topscore.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CaloriCalculation.aspx.cs">
-      <DependentUpon>CaloriCalculation.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CaloriCalculation.aspx.designer.cs">
-      <DependentUpon>CaloriCalculation.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="calories.aspx.cs">
+      <DependentUpon>calories.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="calories.aspx.designer.cs">
+      <DependentUpon>calories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Logic\HelpClass.cs" />
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master.Master.cs">
       <DependentUpon>Master.Master</DependentUpon>
@@ -122,15 +128,17 @@
     </Compile>
     <Compile Include="Models\DAL.cs" />
     <Compile Include="Models\RepetitionSet.cs" />
+    <Compile Include="Models\TestClass.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\Workout.cs" />
     <Compile Include="Models\WorkoutContext.cs" />
     <Compile Include="Models\WorkoutContextInitializer.cs" />
-    <Compile Include="Prediction.aspx.cs">
-      <DependentUpon>Prediction.aspx</DependentUpon>
+    <Compile Include="prediction.aspx.cs">
+      <DependentUpon>prediction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Prediction.aspx.designer.cs">
-      <DependentUpon>Prediction.aspx</DependentUpon>
+    <Compile Include="prediction.aspx.designer.cs">
+      <DependentUpon>prediction.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="topscore.aspx.cs">
@@ -139,6 +147,13 @@
     </Compile>
     <Compile Include="topscore.aspx.designer.cs">
       <DependentUpon>topscore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="workout.aspx.cs">
+      <DependentUpon>workout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="workout.aspx.designer.cs">
+      <DependentUpon>workout.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

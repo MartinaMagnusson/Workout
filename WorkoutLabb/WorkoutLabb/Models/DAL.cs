@@ -14,8 +14,60 @@ namespace WorkoutLabb.Models
         {
             _context = new WorkoutContext();
             listOfUsers = GetAllUsers();
-            
+            //InsertTest();
+
         }
+
+        public static void InsertTest(TestClass testclassen)
+        {
+            var newStudent = testclassen;
+
+            //set student name
+            //newStudent.Name = "Bill";
+
+            //create DBContext object
+            using (var dbCtx = new WorkoutContext())
+            {
+                //Add Student object into Students DBset
+                dbCtx.testClass.Add(newStudent);
+                
+
+                // call SaveChanges method to save student into database
+                dbCtx.SaveChanges();
+            }
+        }
+
+        public static void InsertTest(List<Activity> activityList)
+        {
+            var updatedList = activityList;
+
+            //set student name
+            //newStudent.Name = "Bill";
+
+            //create DBContext object
+            using (var dbCtx = new WorkoutContext())
+            {
+                //Add Student object into Students DBset
+                foreach (var activity in updatedList)
+                {
+                    dbCtx.Activities.Add(activity);
+                }
+                
+
+
+                // call SaveChanges method to save student into database
+                dbCtx.SaveChanges();
+            }
+        }
+
+        public List<TestClass> GetTestClasses()
+        {
+            return (
+                from t in _context.testClass
+                select t).ToList();
+        } 
+
+        
 
         public List<Activity> GetAllActivities()
         {
