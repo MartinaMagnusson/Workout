@@ -17,8 +17,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="placeholderContentDiv">
+    
         
-        <table class="auto-style1">
+        
+
+        
+        <%--<table class="auto-style1">
         <tr>
             <td class="auto-style2">Activity</td>
             <td class="auto-style2">Difficulty</td>
@@ -41,6 +45,8 @@
             <td>
                 <asp:Button ID="ButtonAddUserTest" runat="server" OnClick="ButtonAddUserTest_Click" Text="Add User" />
                 <asp:Button ID="ButtonShowInsertTemplate" runat="server" OnClick="ButtonShowInsertTemplate_Click" Text="Show add item" />
+                <asp:Button ID="ButtonAddNewWorkout" runat="server" OnClick="ButtonAddNewWorkout_Click" Text="New Workout" />
+                <asp:Label ID="LabelWourkoutID" runat="server" Text="Label"></asp:Label>
             </td>
             <td>&nbsp;</td>
         </tr>
@@ -276,6 +282,19 @@
 
     </asp:ListView>
         <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" DataObjectTypeName="WorkoutLabb.Models.TestClass" InsertMethod="InsertTest" SelectMethod="GetTestClasses" TypeName="WorkoutLabb.Models.DAL" UpdateMethod="InsertTest"></asp:ObjectDataSource>
-        <asp:Button ID="ButtonSubmitWorkout" runat="server" Text="Submit" OnClick="ButtonSubmitWorkout_Click" />
+        <asp:Button ID="ButtonSubmitWorkout" runat="server" Text="Submit" OnClick="ButtonSubmitWorkout_Click" />--%>
+        <asp:Button ID="ButtonAddNewWorkout" runat="server" Text="Add New Workout" />
+        <asp:Label ID="LabelTestMessage" runat="server" Text="Label"></asp:Label>
+        <br/>
+        <asp:ListView ID="ListViewActivityEnum" runat="server" OnSelectedIndexChanged="ListViewActivityEnum_SelectedIndexChanged">
+             <ItemTemplate>
+        <asp:Label ID="ActivityNameID" runat="server" Text='<%#Eval("WorkoutType")%>'>
+
+        </asp:Label>
+                 <asp:LinkButton class="" Text="Save New Activity" ID="ButtonSaveNewActivityID" CommandArgument='<%# Eval("WorkoutType") %>' OnCommand="ButtonSaveNewActivity_Command" runat="server" />
+                                   
+            <br/>
+        </ItemTemplate>
+        </asp:ListView>
 </div>
 </asp:Content>

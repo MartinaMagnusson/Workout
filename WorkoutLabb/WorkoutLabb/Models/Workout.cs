@@ -19,7 +19,8 @@ namespace WorkoutLabb.Models
         }
 
         public int ID { get; set; }
+        public int UserID { get; set; }
         public DateTime TraningDate { get; set; }
-        public List<Activity> Activities { get; set; } 
+        public virtual List<Activity> Activities { get; set; } 
     }
 }

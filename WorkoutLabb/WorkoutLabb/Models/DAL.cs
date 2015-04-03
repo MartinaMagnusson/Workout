@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ExceptionServices;
 using System.Security.Cryptography;
 using System.Web;
 
@@ -34,6 +35,49 @@ namespace WorkoutLabb.Models
 
                 // call SaveChanges method to save student into database
                 dbCtx.SaveChanges();
+                int id = testclassen.ID;
+                string hej = "muu";
+            }
+        }
+
+        public static int CreateNewWorkout()
+        {
+
+
+           
+
+            //User user =
+            //    (from u in listOfUsers
+            //        where u.ID == UserID
+            //        select u).First();
+
+            //using (var dbContext = new WorkoutContext)
+            //{
+            //    dbContext.Users.
+            //}
+
+            //user.Workouts.Add(workout);
+
+
+
+            Workout workout = new Workout();
+            DateTime now = DateTime.Now;
+            workout.TraningDate = now;
+            workout.UserID = UserID;
+
+
+
+
+
+
+            using (var dbContext = new WorkoutContext())
+            {
+
+
+                dbContext.Workouts.Add(workout);
+                dbContext.SaveChanges();
+
+                return workout.ID;
             }
         }
 
