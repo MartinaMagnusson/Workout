@@ -38,7 +38,10 @@
                 <asp:RadioButton ID="RadioButtonTime" runat="server" GroupName="AskIfTimeOrSets" Text="Time" AutoPostBack="True" OnCheckedChanged="CheckTimeOrSetsCheckedEvent" />
                     <asp:RadioButton ID="RadioButtonSets" runat="server" GroupName="AskIfTimeOrSets" Text="Sets" OnCheckedChanged="CheckTimeOrSetsCheckedEvent" />
             </td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:Button ID="ButtonAddUserTest" runat="server" OnClick="ButtonAddUserTest_Click" Text="Add User" />
+                <asp:Button ID="ButtonShowInsertTemplate" runat="server" OnClick="ButtonShowInsertTemplate_Click" Text="Show add item" />
+            </td>
             <td>&nbsp;</td>
         </tr>
         
@@ -52,7 +55,7 @@
                 <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
             </td>
             <td class="auto-style3">
-        <asp:ListView ID="ListView1" runat="server" DataSourceID="ObjectDataSource1">
+        <asp:ListView ID="ListView1" runat="server" DataSourceID="ObjectDataSource1" InsertItemPosition="FirstItem">
             <AlternatingItemTemplate>
                 <span style="background-color: #FAFAD2;color: #284775;">ID:
                 <asp:Label ID="IDLabel" runat="server" Text='<%# Eval("ID") %>' />
@@ -63,25 +66,14 @@
                 <br />
                 </span>
             </AlternatingItemTemplate>
-            <EditItemTemplate>
-                <span style="background-color: #FFCC66;color: #000080;">ID:
-                <asp:TextBox ID="IDTextBox" runat="server" Text='<%# Bind("ID") %>' />
-                <br />
-                Name:
-                <asp:TextBox ID="NameTextBox" runat="server" Text='<%# Bind("Name") %>' />
-                <br />
-                <asp:Button ID="UpdateButton" runat="server" CommandName="Update" Text="Update" />
-                <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" />
-                <br />
-                <br />
-                </span>
-            </EditItemTemplate>
+            
             <EmptyDataTemplate>
                 <span>No data was returned.</span>
             </EmptyDataTemplate>
+
             <InsertItemTemplate>
-                <span style="">ID:
-                <asp:TextBox ID="IDTextBox" runat="server" Text='<%# Bind("ID") %>' />
+                <span style="">
+                
                 <br />
                 Name:
                 <asp:TextBox ID="NameTextBox" runat="server" Text='<%# Bind("Name") %>' />
@@ -92,6 +84,7 @@
                 <br />
                 </span>
             </InsertItemTemplate>
+
             <ItemTemplate>
                 <span style="background-color: #FFFBD6;color: #333333;">ID:
                 <asp:Label ID="IDLabel" runat="server" Text='<%# Eval("ID") %>' />
@@ -109,16 +102,7 @@
                 <div style="text-align: center;background-color: #FFCC66;font-family: Verdana, Arial, Helvetica, sans-serif;color: #333333;">
                 </div>
             </LayoutTemplate>
-            <SelectedItemTemplate>
-                <span style="background-color: #FFCC66;font-weight: bold;color: #000080;">ID:
-                <asp:Label ID="IDLabel" runat="server" Text='<%# Eval("ID") %>' />
-                <br />
-                Name:
-                <asp:Label ID="NameLabel" runat="server" Text='<%# Eval("Name") %>' />
-                <br />
-                <br />
-                </span>
-            </SelectedItemTemplate>
+            
         </asp:ListView>
             </td>
             <td class="auto-style3">

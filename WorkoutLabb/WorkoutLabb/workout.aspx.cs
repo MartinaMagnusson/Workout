@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WorkoutLabb.Models;
 
 namespace WorkoutLabb
 {
@@ -55,6 +56,23 @@ namespace WorkoutLabb
         protected void ButtonSubmitWorkout_Click(object sender, EventArgs e)
         {
             
+        }
+
+        protected void ButtonAddUserTest_Click(object sender, EventArgs e)
+        {
+            var user = new TestClass() {Name = "Jalapeno"};
+
+            DAL.InsertTest(user);
+
+        }
+
+        protected void ButtonShowInsertTemplate_Click(object sender, EventArgs e)
+        {
+            
+
+            ListView1.InsertItem.Visible = true;  
+   
+
         }
     }
 }

@@ -58,6 +58,24 @@ namespace WorkoutLabb {
         protected global::System.Web.UI.WebControls.RadioButton RadioButtonSets;
         
         /// <summary>
+        /// ButtonAddUserTest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonAddUserTest;
+        
+        /// <summary>
+        /// ButtonShowInsertTemplate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonShowInsertTemplate;
+        
+        /// <summary>
         /// TextBoxWorkoutTime control.
         /// </summary>
         /// <remarks>

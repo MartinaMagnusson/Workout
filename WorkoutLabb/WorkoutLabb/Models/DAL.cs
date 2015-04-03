@@ -14,13 +14,13 @@ namespace WorkoutLabb.Models
         {
             _context = new WorkoutContext();
             listOfUsers = GetAllUsers();
-            //InsertTest();
+            InsertTest(new TestClass() { Name = "Tobbe" });
 
         }
 
         public static void InsertTest(TestClass testclassen)
         {
-            var newStudent = testclassen;
+            //var newStudent = testclassen;
 
             //set student name
             //newStudent.Name = "Bill";
@@ -29,7 +29,7 @@ namespace WorkoutLabb.Models
             using (var dbCtx = new WorkoutContext())
             {
                 //Add Student object into Students DBset
-                dbCtx.testClass.Add(newStudent);
+                dbCtx.testClass.Add(testclassen);
                 
 
                 // call SaveChanges method to save student into database
