@@ -5,10 +5,8 @@ using System.Web;
 
 namespace WorkoutLabb.Logic
 {
-    public static class HelpClass
-    {
-        public static int UserID { get; set; }
-
-      
-    }
+    public enum DifficultyEnum
+        {
+            Easy = 120, Medium = 150, Hard = 200
+        }
 }

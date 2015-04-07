@@ -1,0 +1,66 @@
+﻿div.placeholderContentDiv {
+
+    width: 90%;
+    
+    margin: 2%;
+   opacity: 0.9;
+    filter: alpha(opacity=40);
+    
+}
+
+div.underlineDiv {
+    width: 100%;
+    
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+table.AddActivityTable {
+    
+}
+
+
+td.TDActivivtyName {
+    width: 100px;
+    float: left;
+}
+
+td.TDDifficulty {
+    width: 100px;
+    float: left;
+}
+td.TDType {
+    width: 100px;
+    float: left;
+}
+td.TDSet1 {
+    width: 100px;
+    float: left;
+}td.TDSet2 {
+     width: 100px;
+    float: left;
+ }
+
+
+tr.AddActivityTR {
+    
+}
+
+.TextboxActivity {
+    width: 30px;
+}
+
+.AddBorderToTableElement {
+    
+    
+}
+
+div.displayWeightAndRepInsideTable {
+    width: 100px;
+    min-height: 100px;
+    
+}
+
+.floatLeft {
+    float: left;
+}

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using WorkoutLabb.Logic;
 using WorkoutLabb.Models;
 
 namespace WorkoutLabb
@@ -9,10 +10,10 @@ namespace WorkoutLabb
     public class Activity
     {
 
-        public enum DifficultyEnum
-        {
-            Easy = 120, Medium = 150, Hard = 200
-        }
+        //public enum DifficultyEnum
+        //{
+        //    Easy = 120, Medium = 150, Hard = 200
+        //}
 
         //public enum ActivityEnum
         //{
@@ -26,6 +27,7 @@ namespace WorkoutLabb
 
 
         public int ID { get; set; }
+        public int WorkoutID { get; set; }
 
         public Activity(double timeSpan, List<RepetitionSet> sets, DifficultyEnum difficulty, ActivityEnum workoutTypeList, DateTime traningDate)
         {
@@ -34,14 +36,16 @@ namespace WorkoutLabb
             Difficulty = difficulty;
             WorkoutType = workoutTypeList.ToString();
             TraningDate = traningDate;
+            HasSets = false;
         }
 
         public double TimeSpan { get; set; }
         
-        public List<RepetitionSet> Sets { get; set; }
+        public virtual List<RepetitionSet> Sets { get; set; }
 
         public DifficultyEnum Difficulty { get; set; }
         public string WorkoutType { get; set; }
+        public bool HasSets { get; set; }
         public DateTime TraningDate { get; set; }
 
         

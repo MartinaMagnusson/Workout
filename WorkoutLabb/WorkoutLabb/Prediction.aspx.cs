@@ -21,7 +21,7 @@ namespace WorkoutLabb
 
         protected void TextBoxTimeToGoal_TextChanged(object sender, EventArgs e)
         {
-            PredictCalc pc = new PredictCalc();
+           // PredictCalc pc = new PredictCalc();
         }
     }
 }

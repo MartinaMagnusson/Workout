@@ -1,0 +1,16 @@
+﻿div.placeholderContentDiv {
+
+    width: 90%;
+    
+    margin: 2%;
+   opacity: 0.9;
+    filter: alpha(opacity=40);
+    
+}
+
+div.underlineDiv {
+    width: 100%;
+    
+    border-bottom: solid;
+    border-width: 1px;
+}

@@ -1,5 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Prediction.aspx.cs" Inherits="WorkoutLabb.Placeholder" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="prediction.aspx.cs" Inherits="WorkoutLabb.Placeholder" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Styles/prediction.css" rel="stylesheet" />
     <style type="text/css">
         .auto-style1 {
             width: 100%;
@@ -19,6 +20,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+   <div class="placeholderContentDiv">
     <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="White" BorderWidth="1px" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="190px" NextPrevFormat="FullMonth" Width="350px">
         <DayHeaderStyle Font-Bold="True" Font-Size="8pt" />
         <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" VerticalAlign="Bottom" />
@@ -62,4 +64,5 @@
             <td>&nbsp;</td>
         </tr>
     </table>
+       </div>
 </asp:Content>
