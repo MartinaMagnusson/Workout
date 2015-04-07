@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ExceptionServices;
 using System.Security.Cryptography;
 using System.Web;
 
@@ -14,8 +15,103 @@ namespace WorkoutLabb.Models
         {
             _context = new WorkoutContext();
             listOfUsers = GetAllUsers();
-            
+            InsertTest(new TestClass() { Name = "Tobbe" });
+
         }
+
+        public static void InsertTest(TestClass testclassen)
+        {
+            //var newStudent = testclassen;
+
+            //set student name
+            //newStudent.Name = "Bill";
+
+            //create DBContext object
+            using (var dbCtx = new WorkoutContext())
+            {
+                //Add Student object into Students DBset
+                dbCtx.testClass.Add(testclassen);
+                
+
+                // call SaveChanges method to save student into database
+                dbCtx.SaveChanges();
+                int id = testclassen.ID;
+                string hej = "muu";
+            }
+        }
+
+        public static int CreateNewWorkout()
+        {
+
+
+           
+
+            //User user =
+            //    (from u in listOfUsers
+            //        where u.ID == UserID
+            //        select u).First();
+
+            //using (var dbContext = new WorkoutContext)
+            //{
+            //    dbContext.Users.
+            //}
+
+            //user.Workouts.Add(workout);
+
+
+
+            Workout workout = new Workout();
+            DateTime now = DateTime.Now;
+            workout.TraningDate = now;
+            workout.UserID = UserID;
+
+
+
+
+
+
+            using (var dbContext = new WorkoutContext())
+            {
+
+
+                dbContext.Workouts.Add(workout);
+                dbContext.SaveChanges();
+
+                return workout.ID;
+            }
+        }
+
+        public static void InsertTest(List<Activity> activityList)
+        {
+            var updatedList = activityList;
+
+            //set student name
+            //newStudent.Name = "Bill";
+
+            //create DBContext object
+            using (var dbCtx = new WorkoutContext())
+            {
+                //Add Student object into Students DBset
+                foreach (var activity in updatedList)
+                {
+                    dbCtx.Activities.Add(activity);
+                }
+                
+
+
+                // call SaveChanges method to save student into database
+                dbCtx.SaveChanges();
+            }
+        }
+
+        public List<TestClass> GetTestClasses()
+        {
+            return (
+                from t in _context.testClass
+                select t).ToList();
+        } 
+
+        
 
         public List<Activity> GetAllActivities()
         {

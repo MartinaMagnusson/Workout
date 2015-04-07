@@ -5,7 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Our Workout Shop</title>
+    
     <link href="Styles/MasterPageCSS.css" rel="stylesheet" />
+    <script src="Script/jquery-1.11.0.min.js"></script>
+    <script src="Script/MasterPageScript.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -14,9 +17,9 @@
     <div class="wrapper">
         <div class="MainContent">
             <div class="CenterContent">
+                <form id="form1" runat="server">
                 <div class="Header">
                     <div class="logoDiv">
-                        
                         <a href="Default.aspx" ><img class="logoImg" src="Images/weights.png"/></a>
                     </div>
                     <div class="HeaderContent">
@@ -26,34 +29,38 @@
                     <nav class="MainNavigation">
                         <ul class="UlNav">
                             <li class="LiNavElement">
-                                <a href="Default.aspx" class="MainNavAnchor">Home</a>
+                                <a href="default.aspx" id="defaultPage" runat="server">Home</a>
                             </li>
                             <li class="LiNavElement">
-                                <a href="Workout.aspx" class="MainNavAnchor">Workout</a>
+                                <a href="workout.aspx" id="workoutPage" class="MainNavAnchor" runat="server">Workout</a>
                             </li>
                             <li class="LiNavElement">
-                                <a href="topscore.aspx" class="MainNavAnchor">Top Score</a>
+                                <a href="topscore.aspx" id="topscorePage" class="MainNavAnchor" runat="server">Top Score</a>
                             </li>
                             <li class="LiNavElement">
-                                <a href="Prediction.aspx"  class="MainNavAnchor">Prediction</a>
+                                <a href="prediction.aspx"  id="predictionPage" class="MainNavAnchor" runat="server">Prediction</a>
                             </li>
                             <li class="LiNavElement">
-                                <a href="CaloriCalculation.aspx" class="MainNavAnchor">Caloris Used</a>
+                                <a href="calories.aspx" id="caloriesPage" class="MainNavAnchor" runat="server">Calories</a>
                             </li>
                         
                         </ul>
                         
                     </nav>
                 </div>
-                <form id="form1" runat="server">
                 <div>
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
                     </asp:ContentPlaceHolder>
+
                 </div>
+                    
+                   <%-- <footer class="footer">
+                        
+                    </footer>--%>
                 </form>
 
-            </div>
+            </div><!-- *** centercontent end *** -->
         
         
     

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WorkoutLabb.Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="WorkoutLabb.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Styles/Default.css" rel="stylesheet" />
     
@@ -23,7 +23,7 @@
     <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" TypeName="WorkoutLabb.Models.DAL"></asp:ObjectDataSource>
     <table class="auto-style1">
         <tr>
-            <td class="auto-style2">Acivity</td>
+            <td class="auto-style2">Activity</td>
             <td class="auto-style2">Difficulty</td>
             <td class="auto-style2">Time</td>
             <td class="auto-style2"></td>
