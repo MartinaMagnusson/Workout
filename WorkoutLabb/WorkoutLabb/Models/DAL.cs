@@ -40,6 +40,7 @@ namespace WorkoutLabb.Models
                 int id = testclassen.ID;
                 string hej = "muu";
             }
+<<<<<<< HEAD
         }
 
         public static int CreateNewWorkout()
@@ -109,6 +110,49 @@ namespace WorkoutLabb.Models
                
             }
             return activity.ID;
+=======
+        }
+
+        public static int CreateNewWorkout()
+        {
+
+
+           
+
+            //User user =
+            //    (from u in listOfUsers
+            //        where u.ID == UserID
+            //        select u).First();
+
+            //using (var dbContext = new WorkoutContext)
+            //{
+            //    dbContext.Users.
+            //}
+
+            //user.Workouts.Add(workout);
+
+
+
+            Workout workout = new Workout();
+            DateTime now = DateTime.Now;
+            workout.TraningDate = now;
+            workout.UserID = UserID;
+
+
+
+
+
+
+            using (var dbContext = new WorkoutContext())
+            {
+
+
+                dbContext.Workouts.Add(workout);
+                dbContext.SaveChanges();
+
+                return workout.ID;
+            }
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
         }
 
         public static void InsertTest(List<Activity> activityList)

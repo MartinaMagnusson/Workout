@@ -14,6 +14,7 @@ div.underlineDiv {
     border-bottom: solid;
     border-width: 1px;
 }
+<<<<<<< HEAD
 
 table.AddActivityTable {
     
@@ -64,3 +65,5 @@ div.displayWeightAndRepInsideTable {
 .floatLeft {
     float: left;
 }
+=======
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec

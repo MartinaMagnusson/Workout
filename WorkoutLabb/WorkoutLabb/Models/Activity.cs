@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Linq;
 using System.Web;
 using WorkoutLabb.Logic;
 using WorkoutLabb.Models;
+=======
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
 
-namespace WorkoutLabb
+namespace WorkoutLabb.Models
 {
     public class Activity
     {

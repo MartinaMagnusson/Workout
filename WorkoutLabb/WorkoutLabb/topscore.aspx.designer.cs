@@ -10,7 +10,7 @@
 namespace WorkoutLabb {
     
     
-    public partial class topscore {
+    public partial class Topscore {
         
         /// <summary>
         /// ListView1 control.

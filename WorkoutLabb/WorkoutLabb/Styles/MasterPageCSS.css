@@ -150,12 +150,21 @@ li.LiNavElement {
     color: orange;
     font-size: 1.5em;
     
+<<<<<<< HEAD
 }
 
 ul li a {
  display:block;
 }
 
+=======
+}
+
+ul li a {
+ display:block;
+}
+
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
 /*ul li a:hover, ul li a:focus {
  color:black;
 }*/

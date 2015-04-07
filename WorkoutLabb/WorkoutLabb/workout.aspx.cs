@@ -4,7 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+<<<<<<< HEAD
 using WorkoutLabb.Logic;
+=======
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
 using WorkoutLabb.Models;
 
 namespace WorkoutLabb
@@ -12,6 +15,7 @@ namespace WorkoutLabb
     public partial class workout : System.Web.UI.Page
     {
         public int WorkoutID { get; set; }
+<<<<<<< HEAD
         public List<Activity> _activityList; 
         private ActivityTypes _activityTypes;
         public string DropdownSetFromSession { get; set; }
@@ -57,6 +61,34 @@ namespace WorkoutLabb
             
 
 
+=======
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            var list = new List<Activity>();
+            var listOfActivites = new List<string>();
+
+            foreach (var activity in Enum.GetValues(typeof(ActivityEnum)))
+            {
+                var item = new Activity();
+                item.WorkoutType = activity.ToString();
+                list.Add(item);
+                
+            }
+
+
+
+            Activity item1 = new Activity();
+            item1.WorkoutType = "Swimming";
+
+            Activity item2 = new Activity();
+            item2.WorkoutType = "Running";
+
+            list.Add(item1);
+            list.Add(item2);
+
+            ListViewActivityEnum.DataSource = list;
+            ListViewActivityEnum.DataBind();
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
         }
 
         protected void CheckTimeOrSetsCheckedEvent(object sender, EventArgs e)
@@ -110,10 +142,14 @@ namespace WorkoutLabb
         protected void ButtonAddNewWorkout_Click(object sender, EventArgs e)
         {
             WorkoutID = DAL.CreateNewWorkout();
+<<<<<<< HEAD
             Session["WorkoutID"] = WorkoutID;
             LabelTestMessage.Text = "Created new workout with ID: " + WorkoutID;
             ButtonAddNewWorkout.Enabled = false;
             ListViewActivityEnum.Visible = true;
+=======
+            //LabelWourkoutID.Text = WorkoutID.ToString();
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
         }
 
         protected void ListViewActivityEnum_SelectedIndexChanged(object sender, EventArgs e)
@@ -123,13 +159,17 @@ namespace WorkoutLabb
 
         protected void ButtonSaveNewActivity_Command(object sender, CommandEventArgs e)
         {
+<<<<<<< HEAD
             var activity = new Activity();
             //List<RepetitionSet> listOfRepetitionSets = PopulateRepetitionSetList(sender, e);
+=======
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
             
             LinkButton btn = sender as LinkButton;
 
             ListViewDataItem item = btn.NamingContainer as ListViewDataItem;
             Label activityNameLabel = item.FindControl("ActivityNameID") as Label;
+<<<<<<< HEAD
             //activity.WorkoutType = activityNameLabel.Text;
             DropDownList dropDownValue = item.FindControl("DropDownList1") as DropDownList;
             string GetDropdownValue = dropDownValue.SelectedValue;
@@ -227,5 +267,10 @@ namespace WorkoutLabb
         //    return eval;
 
         //}
+=======
+            LabelTestMessage.Text = activityNameLabel.Text;
+            //TextBox tbox = item.FindControl("TextBoxQuantity") as TextBox;
+        }
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
     }
 }

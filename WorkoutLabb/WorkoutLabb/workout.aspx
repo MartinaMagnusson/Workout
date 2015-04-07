@@ -6,7 +6,17 @@
         .auto-style1 {
             width: 100%;
         }
+<<<<<<< HEAD
         </style>
+=======
+        .auto-style2 {
+            height: 21px;
+        }
+        .auto-style3 {
+            height: 28px;
+        }
+    </style>
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
     
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -29,7 +39,11 @@
             <td>Running</td>
             <td>
                 <asp:RadioButton ID="RadioButtonEasy" runat="server" GroupName="Difficulty" Text="Easy" />
+<<<<<<< HEAD
                 <asp:RadioButton ID="RadioButtonMedium" runat="server" GroupName="Difficulty" Text="Medium" />
+=======
+                    <asp:RadioButton ID="RadioButtonMedium" runat="server" GroupName="Difficulty" Text="Medium" />
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
                 <asp:RadioButton ID="RadioButtonHard" runat="server" GroupName="Difficulty" Text="Hard" />
             </td>
             <td>
@@ -277,6 +291,7 @@
     </asp:ListView>
         <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" DataObjectTypeName="WorkoutLabb.Models.TestClass" InsertMethod="InsertTest" SelectMethod="GetTestClasses" TypeName="WorkoutLabb.Models.DAL" UpdateMethod="InsertTest"></asp:ObjectDataSource>
         <asp:Button ID="ButtonSubmitWorkout" runat="server" Text="Submit" OnClick="ButtonSubmitWorkout_Click" />--%>
+<<<<<<< HEAD
 
         <asp:Button ID="ButtonAddNewWorkout" runat="server" Text="Add New Workout" OnClick="ButtonAddNewWorkout_Click" />
         <asp:Label ID="LabelTestMessage" runat="server" Text="Label"></asp:Label>
@@ -480,5 +495,20 @@
             </ItemTemplate>
         </asp:ListView>
         
+=======
+        <asp:Button ID="ButtonAddNewWorkout" runat="server" Text="Add New Workout" />
+        <asp:Label ID="LabelTestMessage" runat="server" Text="Label"></asp:Label>
+        <br/>
+        <asp:ListView ID="ListViewActivityEnum" runat="server" OnSelectedIndexChanged="ListViewActivityEnum_SelectedIndexChanged">
+             <ItemTemplate>
+        <asp:Label ID="ActivityNameID" runat="server" Text='<%#Eval("WorkoutType")%>'>
+
+        </asp:Label>
+                 <asp:LinkButton class="" Text="Save New Activity" ID="ButtonSaveNewActivityID" CommandArgument='<%# Eval("WorkoutType") %>' OnCommand="ButtonSaveNewActivity_Command" runat="server" />
+                                   
+            <br/>
+        </ItemTemplate>
+        </asp:ListView>
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
 </div>
 </asp:Content>

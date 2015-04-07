@@ -31,6 +31,7 @@ namespace WorkoutLabb {
         protected global::System.Web.UI.WebControls.Label LabelTestMessage;
         
         /// <summary>
+<<<<<<< HEAD
         /// DropDownListActivities control.
         /// </summary>
         /// <remarks>
@@ -256,6 +257,8 @@ namespace WorkoutLabb {
         protected global::System.Web.UI.WebControls.LinkButton ButtonSaveNewActivityID;
         
         /// <summary>
+=======
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
         /// ListViewActivityEnum control.
         /// </summary>
         /// <remarks>

@@ -46,6 +46,7 @@ D:\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.xml
 D:\GitHub\Workout\WorkoutLabb\WorkoutLabb\bin\EntityFramework.SqlServer.xml
 D:\GitHub\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
 D:\GitHub\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.pdb
+<<<<<<< HEAD
 C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\AfterLibrary\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
 C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\AfterLibrary\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.dll
 C:\Users\Andreas\Desktop\projekt2EntityFrameworkGit\AfterLibrary\Workout\WorkoutLabb\WorkoutLabb\bin\WorkoutLabb.pdb
@@ -76,3 +77,65 @@ C:\Users\Andreas\Downloads\WorkoutLabb\WorkoutLabb\WorkoutLabb\bin\EntityFramewo
 C:\Users\Andreas\Downloads\WorkoutLabb\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.csprojResolveAssemblyReference.cache
 C:\Users\Andreas\Downloads\WorkoutLabb\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.dll
 C:\Users\Andreas\Downloads\WorkoutLabb\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.pdb
+=======
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\obj\Debug\WorkoutLabb.csprojResolveAssemblyReference.cache
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\AjaxControlToolkit.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\AjaxMin.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\HtmlAgilityPack.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\Microsoft.Data.Edm.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\Microsoft.Data.OData.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\System.Spatial.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\HtmlAgilityPack.pdb
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\HtmlAgilityPack.xml
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\Microsoft.Data.Edm.xml
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\Microsoft.Data.OData.xml
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\System.Spatial.xml
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\de\System.Spatial.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\es\System.Spatial.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\fr\System.Spatial.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\it\System.Spatial.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ja\System.Spatial.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ko\System.Spatial.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\ru\System.Spatial.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Johan\Desktop\Skola\Entity Framework\Workout\Workout\WorkoutLabb\WorkoutLabb\bin\zh-Hant\System.Spatial.resources.dll
+>>>>>>> b4d26dae58456c7b847ae3816006bdb9536ebaec
