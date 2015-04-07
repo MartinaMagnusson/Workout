@@ -9,8 +9,4 @@ namespace WorkoutLabb.Models
     {
         Running, BenchPress, Cycling, IndoorRower, IndoorWalking
     }
-
-    
-
-    
 }
